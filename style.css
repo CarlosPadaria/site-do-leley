@@ -1,0 +1,40 @@
+html{
+    font-family: Arial, serif;
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width:350px;
+    width: 100%;
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+body{
+    background-image: url("lulu.webp");
+    background-repeat: repeat;
+}
+
+.box{
+    padding: 1rem;
+    background-color: #FFBF46;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+}
+
+.box:hover{
+    box-shadow: 10px 10px;
+    transition: 0.3s;
+}
