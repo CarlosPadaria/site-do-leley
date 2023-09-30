@@ -3,7 +3,8 @@ let arrAudios = [
     new Audio("Audio_Ele_Gosta.mp3"),
     new Audio("Audio_ui.mp3"),
     new Audio("Audio_Que_Isso_Meu_Filho_Calma.mp3"),
-    new Audio("Audio_Ratinho.mp3")
+    new Audio("Audio_Ratinho.mp3"),
+    new Audio("Audio_Irra.mp3")
 ];
 
 let audioAtual = 0; // Inicialmente, reproduza o primeiro áudio
